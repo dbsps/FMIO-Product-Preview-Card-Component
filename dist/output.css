@@ -703,8 +703,20 @@ video {
   line-height: 2;
 }
 
+.leading-snug {
+  line-height: 1.375;
+}
+
+.leading-tight {
+  line-height: 1.25;
+}
+
 .tracking-\[\.5em\] {
   letter-spacing: .5em;
+}
+
+.tracking-\[\.25em\] {
+  letter-spacing: .25em;
 }
 
 .text-aurometal {
