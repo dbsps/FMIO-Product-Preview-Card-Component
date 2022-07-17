@@ -7,23 +7,25 @@
   <link href="https://fonts.googleapis.com/css?family=Fraunces:700&display=swap" rel="stylesheet">
   <link href="/dist/output.css" rel="stylesheet">
 </head>
-<body class="bg-slate-100 h-screen w-screen font-montserrat">
-   <div class=""> 
-    <figure>
-        <img>
+<body class="bg-cream h-screen w-screen font-montserrat flex justify-center-center items-center p-6">
+   <div class="bg-white rounded-lg flex flex-col sm:flex-row sm:h-[450px] w-[343px] sm:w-[600px] mx-auto overflow-hidden"> 
+    <figure class="flex sm:w-1/2"> 
+            <img src="assets/image-product-desktop.jpg" class="object-contain hidden sm:block" alt="Bottle of Gabrielle perfume by CHANEL">
+            <img src="assets/image-product-mobile.jpg" class="object-contain sm:hidden" alt="Bottle of Gabrielle perfume by CHANEL">
     </figure>
+    <div class="flex flex-1 flex-col justify-between p-6 sm:p-8 space-y-4 sm:w-1/2">
+        <span class="text-aurometal text-xs uppercase tracking-[.5em] -mb-2">Perfume</span>
 
-    <span class="text-aurometal">Perfume</span>
-
-    <h2 class="text-aquamarine font-fraunces">Gabrielle Essence Eau De Parfum</h2>
+        <h2 class="text-gunmetal font-fraunces text-3xl">Gabrielle Essence Eau De Parfum</h2>
   
-    <p class="text-aurometal">floral, solar and voluptuous interpretation composed by Olivier Polge, 
-    Perfumer-Creator for the House of CHANEL.</p>
-  
-    <span class="text-aquamarine font-fraunces">$149.99</span>
-    <span class="text-aurometal line-through">$169.99</span>
-  
-    <button class="bg-aquamarine hover:bg-dark-aquamarine text-white">Add to Cart</button>
+        <p class="text-aurometal text-xs leading-loose pb-8 sm:pb-0">A floral, solar and voluptuous interpretation composed by Olivier Polge, 
+        Perfumer-Creator for the House of CHANEL.</p>
+        <div class="flex flex-wrap-reverse space-x-6 items-center">
+            <span class="text-aquamarine font-fraunces text-3xl">$149.99</span>
+            <span class="text-aurometal text-xs line-through">$169.99</span>
+        </div>
+        <button class="flex justify-center items-center bg-aquamarine hover:bg-dark-aquamarine font-bold text-sm text-white rounded-lg py-3"><span class="pr-4"><img src="assets/icon-cart.svg"></span>Add to Cart</button>
+    </div>
    </div>
 </body>
 </html>
