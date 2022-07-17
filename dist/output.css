@@ -727,6 +727,14 @@ video {
   letter-spacing: 0.1em;
 }
 
+.tracking-\[\.2em\] {
+  letter-spacing: .2em;
+}
+
+.tracking-\[\.3em\] {
+  letter-spacing: .3em;
+}
+
 .text-aurometal {
   --tw-text-opacity: 1;
   color: hsl(228 12% 48% / var(--tw-text-opacity));
