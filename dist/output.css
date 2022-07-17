@@ -826,6 +826,11 @@ video {
   padding-bottom: 1rem;
 }
 
+.py-3\.5 {
+  padding-top: 0.875rem;
+  padding-bottom: 0.875rem;
+}
+
 .pb-8 {
   padding-bottom: 2rem;
 }
@@ -836,6 +841,10 @@ video {
 
 .pb-6 {
   padding-bottom: 1.5rem;
+}
+
+.pr-3 {
+  padding-right: 0.75rem;
 }
 
 .font-montserrat {
