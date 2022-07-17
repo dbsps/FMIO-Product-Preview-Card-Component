@@ -711,12 +711,20 @@ video {
   line-height: 1.25;
 }
 
+.leading-none {
+  line-height: 1;
+}
+
 .tracking-\[\.5em\] {
   letter-spacing: .5em;
 }
 
 .tracking-\[\.25em\] {
   letter-spacing: .25em;
+}
+
+.tracking-widest {
+  letter-spacing: 0.1em;
 }
 
 .text-aurometal {
